@@ -1,3 +1,5 @@
 #!/usr/bin/env node
 
-console.log("Good afternoon, Sam")
+app.get('/', function(request, response) {
+  response.send('Good afternoon, Sam');
+});
